@@ -29,7 +29,7 @@
                   <span class="text-nowrap"><h3>Shopper Solutions</h3></span>
                 </div>    
                 <div class="text-center d-none d-lg-block">
-                  <span class="text-nowrap"><h1>Personal Shoppers</h1></span>
+                  <span class="text-nowrap"><h1>Shopper Solutions</h1></span>
                 </div>               
                   <div class="text-center">
 	

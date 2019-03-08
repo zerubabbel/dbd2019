@@ -30,3 +30,5 @@ Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 Route::get('/encodercalc', 'EncoderCalcController@index');
 Route::get('/contact', 'ContactController@index');
+
+Route::resource('posts', 'PostsController');
