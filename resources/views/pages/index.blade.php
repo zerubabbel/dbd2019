@@ -8,8 +8,8 @@
           <h1 class="jumbotron-heading">Designer Bags Depot</h1>
           <p class="lead text-muted">Operating internationally to give you awesome deals and extensive selections</p>
           <p>
-            <a href="#" class="btn btn-primary my-2">Store</a>
-            <a href="#" class="btn btn-secondary my-2">Personal Shopping Service</a>
+            <a href="#" class="btn btn-primary my-2">Online Store</a>
+            <a href="#" class="btn btn-secondary my-2">Shopper Solutions</a>
           </p>
         </div>
       </section>

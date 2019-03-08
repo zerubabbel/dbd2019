@@ -12,10 +12,14 @@
     <body>
     	@include('inc.navbar')
    		<div class="container">
+          @include('inc.messages')
        		@yield('content')
    		</div>
       @include('inc.footer')
-
+          <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+          <script>
+              CKEDITOR.replace( 'article-ckeditor' );
+          </script>
     </body>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
