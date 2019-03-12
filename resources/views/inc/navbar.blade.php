@@ -1,7 +1,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
   
-   <a class="navbar-brand" href="#"><img src={{asset('img/logo.jpg')}} class="rounded" width="80" height="80" class="d-inline-block align-top" alt=""></a>
+   <a class="navbar-brand responsive" href="#"><img src={{asset('img/logo.jpg')}} class="rounded" width="80" height="80" class="d-inline-block align-top" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
           <span class="navbar-toggler-icon"></span>
       </button>
@@ -53,7 +53,7 @@
                          <a class="nav-link" href="#">About</a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link" href="#">Personal Shopper Service</a>
+                         <a class="nav-link" href="#">Shopper Solutions</a>
                        </li>
                        <li class="nav-item">
                          <a class="nav-link" href="#">Store</a>

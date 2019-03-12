@@ -105,3 +105,8 @@ body {
     font-size: 13px;
     color: white;
 }
+
+#login_section a:hover{
+    font-size: 13px;
+    color: grey;
+}
