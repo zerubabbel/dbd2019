@@ -100,3 +100,8 @@ body {
 .socialIcon:hover{
   color: white;
 }
+
+#login_section a{
+    font-size: 13px;
+    color: white;
+}

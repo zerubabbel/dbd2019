@@ -32,3 +32,6 @@ Route::get('/encodercalc', 'EncoderCalcController@index');
 Route::get('/contact', 'ContactController@index');
 
 Route::resource('posts', 'PostsController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
