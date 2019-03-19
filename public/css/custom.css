@@ -110,3 +110,14 @@ body {
     font-size: 13px;
     color: grey;
 }
+
+#alreadyLoggedIn a{
+  font-size: 13px;
+    color: grey;
+}
+
+#alreadyLoggedIn a:hover{
+    font-size: 13px;
+    color: grey;
+}
+
