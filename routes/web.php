@@ -30,6 +30,8 @@ Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 Route::get('/encodercalc', 'EncoderCalcController@index');
 Route::get('/contact', 'ContactController@index');
+Route::get('/send_email', 'SendEmailController@index');
+Route::post('/send_email/send', 'SendEmailController@send');
 
 Route::resource('posts', 'PostsController');
 Auth::routes();

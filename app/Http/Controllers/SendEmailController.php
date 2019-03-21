@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class SendEmailController extends Controller
 {
     function index(){
-    	return view
+    	return view('contact/send_email');
     }
 }
