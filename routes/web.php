@@ -32,6 +32,12 @@ Route::get('/encodercalc', 'EncoderCalcController@index');
 Route::get('/contact', 'ContactController@index');
 Route::get('/send_email', 'SendEmailController@index');
 Route::post('/send_email/send', 'SendEmailController@send');
+Route::post('/sendemail', function (\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer){
+		$mailer
+		->to($request->input('mail'))
+		->send(new \App\Mail\MyMail($request->input('title')));
+		return redirect()->back();
+})->name('sendmail');
 
 Route::resource('posts', 'PostsController');
 Auth::routes();
