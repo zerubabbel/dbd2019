@@ -45,3 +45,4 @@ Auth::routes();
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 
 Route::get('sendMarch', 'mailControllerMarch@send');
+Route::get('email', 'mailControllerMarch@email');
